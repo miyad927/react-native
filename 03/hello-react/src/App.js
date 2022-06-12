@@ -1,8 +1,9 @@
 import React from 'react';
-import Say from './Say';
+import './App.css';
 
-const App = () => {
-  return <Say />;
-};
+function App() {
+  const name = '리액트';
+  return <div className="react">{name}</div>;
+}
 
 export default App;
